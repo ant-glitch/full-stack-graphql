@@ -20,8 +20,8 @@ const createPetModel = db => {
       db.get('pet')
         .push(newPet)
         .write()
-
-      return newPet
+      
+        return newPet
     }
   }
 }
